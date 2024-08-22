@@ -1,29 +1,21 @@
-# neverland-database-2024
+# FF Neverland Database
 
-This template should help get you started developing with Vue 3 in Vite.
+## Neverland是什麼？
+Neverland是最終幻想14的非官方寫作及創作交流群。本專案是專門為此而設的資料庫，同時包括字數統計等功能。
+由Vue負責前端，API由Node.js構建。
 
-## Recommended IDE Setup
+## 安裝
+- Node.js version >= v18.19.0
+- yarn install / npm install
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
+## 構建
+``` bash
+# serve with hot reload at localhost:8080
 npm run dev
-```
 
-### Compile and Minify for Production
-
-```sh
+# build for production with minification
 npm run build
+
+# build for production and view the bundle analyzer report
+npm run build --report
 ```
